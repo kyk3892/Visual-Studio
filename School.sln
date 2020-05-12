@@ -75,6 +75,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangle", "Triangle\Triang
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoChar", "TwoChar\TwoChar.csproj", "{903B18F6-D60F-443B-97C1-D136262C0C7D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Star2", "Star2\Star2.csproj", "{A6FC1C21-91B7-4315-B28C-99070EB63A4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -225,6 +227,10 @@ Global
 		{903B18F6-D60F-443B-97C1-D136262C0C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{903B18F6-D60F-443B-97C1-D136262C0C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{903B18F6-D60F-443B-97C1-D136262C0C7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6FC1C21-91B7-4315-B28C-99070EB63A4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6FC1C21-91B7-4315-B28C-99070EB63A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6FC1C21-91B7-4315-B28C-99070EB63A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6FC1C21-91B7-4315-B28C-99070EB63A4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
