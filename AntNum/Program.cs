@@ -6,7 +6,7 @@ namespace AntNum
     {
         static void Main(string[] args)
         {
-            
+            Console.WriteLine("I don't know");
         }
     }
 }
