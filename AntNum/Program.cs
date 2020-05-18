@@ -6,8 +6,37 @@ namespace AntNum
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("I don't know");
-            Console.WriteLine("컴퓨터에서 수정함");
+            string str = "1";
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine((i+1)+"번째 : "+str);
+                str = AntSeries(str);
+            }
+        }
+
+        private static string AntSeries(string str) //입력으로 받음
+        {
+            char what = str[0]; //첫번째문자 가져옴
+            string temp = "";
+            int cnt = 0;
+
+            for (int i = 0; i < str.Length; i++)
+            {
+                if (what == str[i])
+                {
+                    cnt++;
+                }
+                else
+                {
+                    temp = temp + what + cnt;
+                    what = str[i];
+                    cnt = 1;
+                }
+            }
+            temp = temp + what + cnt;
+
+            return temp;
         }
     }
 }
