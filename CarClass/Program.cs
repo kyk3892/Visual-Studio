@@ -8,14 +8,6 @@ namespace CarClass
         int number=7777;
         public int tires = 4; //외부에서 값을 바꿀 수 있도록 허용
 
-        public void Stop() 
-        {
-
-        }
-        public void Drive() 
-        {
-
-        }
         public void Fly() 
         {
             this.color = "blue";
