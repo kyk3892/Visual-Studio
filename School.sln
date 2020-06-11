@@ -121,19 +121,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constants", "Constants\Cons
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boxes", "Boxes\Boxes.csproj", "{465488BD-A3D9-47DF-B73B-69E71AC04343}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Property", "Property\Property.csproj", "{FB5C758B-8CF3-4257-96A4-CEA9CB2E7E47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Property", "Property\Property.csproj", "{FB5C758B-8CF3-4257-96A4-CEA9CB2E7E47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Copies", "Copyies\Copies.csproj", "{03227D8E-35D1-4FB4-A195-11C5F83BBF70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Copies", "Copyies\Copies.csproj", "{03227D8E-35D1-4FB4-A195-11C5F83BBF70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reference", "Reference\Reference.csproj", "{4C9A6FB4-A25B-4D49-836D-326D45EC4AD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reference", "Reference\Reference.csproj", "{4C9A6FB4-A25B-4D49-836D-326D45EC4AD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swapref", "Swapref\Swapref.csproj", "{7029E081-FE79-4CEA-9BFB-0A40A4245566}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swapref", "Swapref\Swapref.csproj", "{7029E081-FE79-4CEA-9BFB-0A40A4245566}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfMethod", "SelfMethod\SelfMethod.csproj", "{4E810C0A-A419-400B-8EBC-69053B1269FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelfMethod", "SelfMethod\SelfMethod.csproj", "{4E810C0A-A419-400B-8EBC-69053B1269FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memorize", "Memorize\Memorize.csproj", "{74D13765-EEF3-4A90-B29F-0428C274C741}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memorize", "Memorize\Memorize.csproj", "{74D13765-EEF3-4A90-B29F-0428C274C741}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Direction", "Direction\Direction.csproj", "{F1A6CD95-3426-4E64-8FF1-16F703A73F96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Direction", "Direction\Direction.csproj", "{F1A6CD95-3426-4E64-8FF1-16F703A73F96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Windowsform", "Windowsform\Windowsform.csproj", "{A40EAA62-D2B0-4498-9E3E-50875F4E0203}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -405,6 +407,10 @@ Global
 		{F1A6CD95-3426-4E64-8FF1-16F703A73F96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1A6CD95-3426-4E64-8FF1-16F703A73F96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1A6CD95-3426-4E64-8FF1-16F703A73F96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A40EAA62-D2B0-4498-9E3E-50875F4E0203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A40EAA62-D2B0-4498-9E3E-50875F4E0203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A40EAA62-D2B0-4498-9E3E-50875F4E0203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A40EAA62-D2B0-4498-9E3E-50875F4E0203}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

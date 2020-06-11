@@ -20,7 +20,7 @@ namespace Work3_1
             }
             else
             {
-                Console.WriteLine();
+                Console.WriteLine();                
             }
         }
     }
