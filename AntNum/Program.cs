@@ -7,14 +7,12 @@ namespace AntNum
         static void Main(string[] args)
         {
             string str = "1";
-
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 20; i++)
             {
                 Console.WriteLine((i+1)+"번째 : "+str);
                 str = AntSeries(str);
             }
         }
-
         private static string AntSeries(string str) //입력으로 받음
         {
             char what = str[0]; //첫번째문자 가져옴

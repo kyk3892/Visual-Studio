@@ -11,7 +11,7 @@ namespace InsertSum
             while (input != 0)
             {
                 sum += input;
-                Console.WriteLine(sum);
+                Console.WriteLine("sum : "+sum);
                 
                 input = int.Parse(Console.ReadLine());
             }

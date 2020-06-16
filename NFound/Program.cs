@@ -14,7 +14,7 @@ namespace NFound
                 n++;
                 sum += n;
             }
-            Console.WriteLine(n-1);
+            Console.WriteLine("n의 값 : "+(n-1));
         }
     }
 }
